@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    background-color: #1f2937;
+    font-family: monospace;  
+    flex-direction: column;  
+    height: 250px;
+
+}
+
+.grandwrapperforrow {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: red;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    height: 20px;
+    flex-direction: column;
+    padding: 20px;
+  
+}
+
+.bigtextdumb {
+    display: flex;
+    color: white;
+}
+
+.sub {
+    display: flex;
+    color: white;
+}
+
+
+.button {
+    display: flex;
+
+}
+
+
+
+
+
