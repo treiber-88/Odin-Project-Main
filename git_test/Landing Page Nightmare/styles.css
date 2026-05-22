@@ -1,9 +1,9 @@
 .header {
     display: flex;
-    background-color: #1f2937;
     font-family: monospace;  
     flex-direction: column;  
-    height: 250px;
+    height: 400px;
+    background-image: url('RA2base.png');
 
 }
 
@@ -12,13 +12,19 @@
     flex-direction: row;
 }
 
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 15px;
+}
 
 
 
 a {
     display: flex;
     text-decoration: none;
-    color: red;
+    color: white;
     justify-content: flex-end;
     flex-direction: row;
 }
@@ -29,22 +35,37 @@ a {
     height: 20px;
     flex-direction: column;
     padding: 20px;
+
   
 }
 
 .bigtextdumb {
     display: flex;
     color: white;
+    font-size:20px;
+    list-style-type: none;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    border: red;
+    margin-left: 80px;
+    margin-top: 80px;
 }
 
-.sub {
+#sub {
     display: flex;
-    color: white;
+    color: red;
+    font-size:15px;
+
 }
 
 
-.button {
+button {
     display: flex;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
